@@ -1,0 +1,37 @@
+/.bsp/
+target/
+*.class
+*.log
+*application-local.conf
+
+# sbt specific
+.cache
+.history
+.lib/
+dist/*
+target/
+lib_managed/
+src_managed/
+project/boot/
+project/plugins/project/
+.bsp/
+
+
+# IntelliJ specific
+.scala_dependencies
+.worksheet
+.idea/
+out/*
+.run
+
+# VS-Code Metals plugin
+.vscode/
+.metals/
+.bloop/
+.hydra/
+metals.sbt
+
+# Mac
+*.DS_Store
+
+.jvmopts
